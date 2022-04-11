@@ -1,0 +1,15 @@
+.main_menu {
+  display: flex;
+  justify-content: flex-end;
+  .link_box {
+    display: flex;
+    list-style: none;
+    .menu_element {
+      font-size: 24px;
+    }
+  }
+  .icon_box {
+    display: flex;
+    list-style: none;
+  }
+}

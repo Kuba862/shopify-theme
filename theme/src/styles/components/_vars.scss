@@ -1,0 +1,46 @@
+// colors
+$pink1: #A467A5;
+$pink2: #9D5D9F;
+$pink3: #DFB0CD;
+$pink4: #F196A3;
+$pink5: #F4D9E6;
+$pink6: #E7A4BF;
+$pink7: #FAEDF3;
+$yellow: #F0E5C4;
+$teal: #008DA1;
+$blueGrey: #ADB6C7;
+$chmielewskaBlue: #CDE7ED;
+$lightViolet: #B5A1C4;
+$lightGrey: #AEA5A8;
+$grey: #616161;
+$darkGrey: #3B3553;
+$black: #424242;
+$white: #fff;
+// border-radius
+$smallRadius: 2px;
+// picture sizes
+$smallPicHei: 320px;
+$smallPicWid: 240px; 
+$mediumPicHei: 480px;
+$mediumPicWid: 320px;
+$bigPicHei: 640px;
+$bigPicWid: 420px;
+$fullPicWid: 1440px;
+$fullPicHei: 845px;
+$verticalPicHei: 560px;
+$verticalPicWid: 320px;
+$squarePicHei: 560px;
+$squarePicWid: 549px;
+// font-size
+@font-face {
+    font-family: 'apropal';
+    src: url( "Apropal-Bold.woff") format("woff");
+}
+@font-face {
+    font-family: 'lombard';
+    src: url('Lombard-regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'madeMirage';
+    src: url('MADE_Mirage_Regular_PERSONAL_USE.otf') format('otf');
+}
