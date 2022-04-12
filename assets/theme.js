@@ -9,5 +9,5 @@
 })();
 
 const homePageTitle = document.querySelector('.title');
-console.log(homePageTitle);
+console.log(homePageTitle.value);
 //# sourceMappingURL=theme.js.map
