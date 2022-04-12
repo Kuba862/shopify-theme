@@ -7,7 +7,10 @@
 
   example();
 })();
-
+const requestUrl = 'example.json';
+const request = new Request(requestUrl);
+const response = await fetch(request);
+const title = response.json;
 const homePageTitle = document.querySelector('.title');
-console.log(homePageTitle.innerHTML = homePage.title);
+console.log(title);
 //# sourceMappingURL=theme.js.map
