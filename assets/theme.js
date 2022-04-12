@@ -7,10 +7,8 @@
 
   example();
 })();
-const requestUrl = 'example.json';
-const request = new Request(requestUrl);
-const response = await fetch(request);
-const title = response.json;
-const homePageTitle = document.querySelector('.title');
-console.log(title);
+const res = await fetch('example.json')
+  .then(res => {
+    console.log(res);
+  })
 //# sourceMappingURL=theme.js.map
