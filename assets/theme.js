@@ -2,8 +2,9 @@
   'use strict';
 
   var example = function example() {
-    // const jsonData = require('../../static/example.json');
-    console.log('trat');
+    var jsonData = require('../../static/example.json');
+
+    console.log(jsonData);
   };
 
   example();
