@@ -1,0 +1,9 @@
+.header {
+    background-image: url('hp1.jpg');
+    background-position: -115px -60px;
+    background-repeat: no-repeat;
+    height: 2256px;
+    width: 100%;
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.1));;
+    @import './components/mainMenu.scss';
+}

@@ -1,16 +1,16 @@
-
-@import './components/mainMenu.scss';
+@import './components/header';
 @import './components/vars';
-
-
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+*::marker {
+    content: '';
+}
 body {
     max-width: 1440px;
     margin: 0 auto;
-    background-color: $pink1;
 }
+
