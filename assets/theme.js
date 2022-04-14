@@ -2,9 +2,11 @@
   'use strict';
 
   var example = function example() {
-    var jsonData = require('../../static/example.json');
-
-    console.log(jsonData);
+    fetch('example.json').then(function (response) {
+      return response.json();
+    }).then(function (jsondata) {
+      return console.log(jsondata);
+    });
   };
 
   example();
