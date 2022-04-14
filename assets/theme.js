@@ -7,4 +7,5 @@
 
   example();
 })();
+console.log('działa');
 //# sourceMappingURL=theme.js.map
