@@ -1,6 +1,6 @@
 (function () {
   'use strict';
-  import * as data from '../../src/static/example.json';
+  import data from '../../src/static/example.json';
   console.log(data.homePage);
 })();
 
