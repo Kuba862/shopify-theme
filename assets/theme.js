@@ -7,8 +7,4 @@
 
   example();
 })();
-const res = await fetch('example.json')
-  .then(res => {
-    console.log(res);
-  })
 //# sourceMappingURL=theme.js.map
