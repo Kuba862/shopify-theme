@@ -7,5 +7,6 @@
 
   example();
 })();
-console.log('działa');
+import * as data from '../../src/static/example.json';
+console.log(data.homePage);
 //# sourceMappingURL=theme.js.map
