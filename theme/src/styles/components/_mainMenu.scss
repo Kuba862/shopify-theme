@@ -1,15 +1,58 @@
+@import './vars.scss';
+.main_menu-container {
+  display: flex;
+  justify-content: space-between;
+.logo {
+  margin-left: 160px;
+  margin-top: 67px;
+  a {
+    .logo_container {
+      display: flex;
+      flex-direction: column;
+      flex-basis: 240px;
+      position: relative;
+      .pauka_svg {
+        position: absolute;
+        top: -30px;
+        left: 60px;
+      }
+    }
+  }
+}
 .main_menu {
   display: flex;
   justify-content: flex-end;
+  margin-right: 184px;
+  margin-top: 54px;
   .link_box {
     display: flex;
-    list-style: none;
     .menu_element {
-      font-size: 24px;
+      font-family: 'apropal';
+      margin-right: 40px;
+      &:nth-child(4) {
+        margin-right: 100px;
+      }
+      a {
+        color: $white;
+        list-style: none;
+        text-decoration: none;
+        font-size: 12px;
+        text-transform: uppercase;
+      }
     }
   }
   .icon_box {
     display: flex;
+    justify-content: space-between;
     list-style: none;
+    .icon_element {
+      display: flex;
+      a {
+        .instagram_svg {
+          margin-right: 45px;
+        }
+      }
+    }
   }
+}
 }
