@@ -1,7 +1,5 @@
 @import './vars.scss';
-.main_menu-container {
-  display: flex;
-  justify-content: space-between;
+
 .logo {
   margin-left: 160px;
   margin-top: 67px;
@@ -54,5 +52,4 @@
       }
     }
   }
-}
 }

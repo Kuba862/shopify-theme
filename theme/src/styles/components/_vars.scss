@@ -32,15 +32,16 @@ $verticalPicWid: 320px;
 $squarePicHei: 560px;
 $squarePicWid: 549px;
 // font-size
+$font80: 80px;
 @font-face {
     font-family: 'apropal';
-    src: url( "Apropal-Bold.otf") format("otf");
+    src: url( "Apropal-Bold.ttf") format("ttf");
 }
 @font-face {
     font-family: 'lombard';
-    src: url('Lombard-regular.otf') format('otf');
+    src: url('Lombard-regular.ttf') format('ttf');
 }
 @font-face {
     font-family: 'madeMirage';
-    src: url('MADE_Mirage_Regular_PERSONAL_USE.otf') format('otf');
+    src: url('MADE_Mirage_Regular_PERSONAL_USE.ttf') format('ttf');
 }
